@@ -1794,9 +1794,9 @@ if __name__ == "__main__":
     loader_cosine.find_similar_players("Stephen Curry", n_similar=10, method='both')
     loader_cosine.find_similar_players("Giannis", n_similar=10, method='both')
     
-    ============================================================================
-    COMPARISON: Dual PCA - Separate PCA for Offense and Defense
-    ============================================================================
+    # ============================================================================
+    # COMPARISON: Dual PCA - Separate PCA for Offense and Defense
+    # ============================================================================
     print("\n" + "="*70)
     print("COMPARISON: Using DUAL PCA (Offense + Defense separately)")
     print("="*70)
